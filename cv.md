@@ -20,6 +20,26 @@ My goal is to learn everything new and exciting. I love spend a lot of time doin
 * __JavaScript (Basic)__
 
 
+## Code Example
+```
+let numbers = [1, 4, 5, 9, 2, 5, 1];
+let uniqueNumbers = [];
+
+for (let i = 0; i <= numbers.length - 1; i++) {
+    let notUnique = true;
+    for (var j = 0; j <= numbers.length - 1; j ++) {
+        if (numbers[j] == numbers[i] && j != i) {
+          notUnique = false;
+        }     
+    } 
+
+    if (notUnique) {
+        uniqueNumbers.push(numbers[i]);
+    }
+}
+```
+
+
 ## Education
 
 Belarusian State University of Transport
