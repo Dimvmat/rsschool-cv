@@ -41,11 +41,9 @@ for (let i = 0; i <= numbers.length - 1; i++) {
 }
 ```
 
-
 ## Education
 
 Belarusian State University of Transport
-
 
 
 ## English
