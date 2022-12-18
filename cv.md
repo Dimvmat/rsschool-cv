@@ -2,26 +2,25 @@
 
 ![1670787763934](https://user-images.githubusercontent.com/102551294/207103891-e2978793-bfa2-4662-9b85-6388b41114ab.png)
 
-## My Contact Info:
+## Contacts:
 
 * Phone: +375 29 593-16-80
 * E-mail: dim.v.m.84@gmail.com
-* GitHub: dimvmat
 * Telegram: Dzmitry Matusevich
 
-## About Me
+## About Me:
 
 My goal is to learn everything new and exciting. I love spend a lot of time doing what interests me. My core strengths are in problem solving and fast learning. I want to get knowledge and skills that will be enough for employment.
 
 
-## Skills
+## Skills:
 
 * __HTML__
 * __CSS__
 * __JavaScript (Basic)__
 
 
-## Code Example
+## Code Example:
 
 ```
 let numbers = [1, 4, 5, 9, 2, 5, 1];
@@ -41,12 +40,12 @@ for (let i = 0; i <= numbers.length - 1; i++) {
 }
 ```
 
-## Education
+## Education:
 
 Belarusian State University of Transport
 
 
-## English
+## Languages:
 
 * Russian - native
 * English - A2
