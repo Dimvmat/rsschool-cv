@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Poppins-Regular";
+   src: url("../assets/fonts/Poppins-Regular.ttf");
+   font-weight: 400;
+ }
+
+ @font-face {
+  font-family: "Poppins-Bold";
+   src: url("../ssets/fonts/Poppins-Bold.ttf");
+   font-weight: 700;
+ } 
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.page {
+  height: 100%;
+    margin: 0;   
+    padding: 0;
+    font-family: "Poppins-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  max-width: 1440px;
+  margin: 0 auto; 
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #7a7aa4;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;   
+}
+
+.nav-item a {
+  color: #b1b3c9;
+  text-decoration: none; 
+  background-color: #7a7aa4; 
+  transition: color 0.6s;
+  transition: background-color 0.7s;
+}
+.nav-item a:hover { 
+  color: #c12f2f;
+  background-color: #FFFFFF;
+}
+
+.main {
+  display: flex;  
+}
+
+section {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+li {
+  display: list-item;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  background-color: #ffe2e2;
+
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  margin-bottom: 26px;
+  padding-left: 30px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.contact-list {
+  padding-left: 20px;
+}
+
+.main-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 590px; 
+}
+
+.main-title {
+  padding: 130px 0 0 60px;
+  font-size: 64px;
+  line-height: 76px; 
+}
+
+.my-foto {
+  margin: 0;
+  width: 520px;
+  height: 600px;
+}
+
+.contact-list {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.about-me-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 250px;
+}
+.skills-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 230px;
+}
+
+.skills-list {
+  padding-left: 20px;
+}
+
+.code-example-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 600px;
+}
+
+.code {
+  padding-left: 0;
+}
+
+.education-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 180px;
+}
+
+.languages-container {
+  margin: 0;   
+  padding: 10px 0 0 50px;
+  width: 100%;
+  height: 250px;
+}
+
+.languages-list {
+  padding-left: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: #707098;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px;     
+  list-style: none; 
+}
+
+.footer-github {
+  line-height: 32px;
+  color: black; 
+  text-decoration: none;  
+}
+
+.footer-year {
+  line-height: 32px;
+}
+
+.footer-rsschool {
+  height: 32px;
+}
