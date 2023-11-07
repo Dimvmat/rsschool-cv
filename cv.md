@@ -1,12 +1,13 @@
 # Dzmitry Matusevich
 
-
+![Foto](Путь к файлу)
 
 ## Contacts:
 
 * Phone: +375 29 593-16-80
 * E-mail: dim.v.m.84@gmail.com
 * Telegram: Dzmitry Matusevich
+* Discord: dimvm
 
 
 ## About Me:
@@ -32,8 +33,8 @@ for (let i = 0; i <= numbers.length - 1; i++) {
     for (let j = 0; j <= numbers.length - 1; j ++) {
         if (numbers[j] == numbers[i] && j != i) {
           notUnique = false;
-        }     
-    } 
+        }
+    }
 
     if (notUnique) {
         uniqueNumbers.push(numbers[i]);
@@ -43,9 +44,9 @@ for (let i = 0; i <= numbers.length - 1; i++) {
 
 ## Work experience
 
-Audio-player
+[Audio-player](https://rolling-scopes-school.github.io/dimvmat-JSFEPRESCHOOL2023Q2/audio-player/)
 
-Slider
+[Slider](https://dimvmat.github.io/cssMemeSlider/cssMemeSlider/)
 
 
 ## Education:
