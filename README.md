@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dimvmat.github.io/rsschool-cv/cv
