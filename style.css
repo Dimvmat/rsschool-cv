@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../assets/fonts/Poppins-Regular.ttf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url("../ssets/fonts/Poppins-Bold.ttf");
+    font-weight: 700;
+  } 
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .page {
+    height: 100%;
+    margin: 0;   
+    padding: 0;
+    font-family: "Poppins-Regular", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    max-width: 1440px;
+    margin: 0 auto; 
+  }
+  
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: #7a7aa4;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+  }
+  
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;   
+  }
+  
+  .nav-item a {
+    color: #b1b3c9;
+    text-decoration: none; 
+    background-color: #7a7aa4; 
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+  }
+  .nav-item a:hover { 
+    color: #c12f2f;
+    background-color: #FFFFFF;
+    transition: color 0.4s;
+    transition: background-color 0.4s;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: list-item;
+  }
+  
+  .container-left {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 35%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-right {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-right: 50px;
+  }
+
+  .section {
+    padding: 10px 0 30px 60px;
+  }
+
+  .section-left {
+    padding: 10px 0 30px 50px;
+    background-color: #7a7aa4;
+  }
+
+  .section-left-border {
+    border-bottom: 2px solid #b1b3c9;
+  }
+
+  .contact-container {
+    border-radius: 50px 0 0 0;
+    padding-left: 25px;
+  }
+  
+  .section-title {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .section-title-left {
+    padding-left: 35px;
+  }
+  
+  .name-container {
+    margin: 0;   
+    padding: 10px 0 0 50px;
+    width: 100%;
+  }
+  
+  .name-title {
+    padding: 80px 0 80px 80px;
+    font-size: 76px;
+    line-height: 100px;
+  }
+  
+  .my-foto {
+    margin: 0;
+    max-width: 505px;
+    max-height: 505px;
+    display: flex;
+    background-color: #7a7aa4;
+  }
+
+  .foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 50% 50% 0;
+  }
+  
+  .contact-list {
+    margin: 16px 30px 0 0;
+  }
+  
+  .about-me-container {
+    margin: 0;   
+    width: 100%;
+    padding-right: 40px;
+  }
+
+  .about-me {
+    margin-bottom: 0;
+  }
+
+  .skills-container {
+    margin: 0;   
+    width: 100%;
+  }
+  
+  .skills-list {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .skills-item a {
+    color: #b1b3c9;
+    text-decoration: none;
+    background-color: #7a7aa4;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+  }
+
+  .skills-item a:hover {
+    color: #c12f2f;
+    background-color: #FFFFFF;
+    transition: color 0.4s;
+    transition: background-color 0.4s;
+  }
+  
+  .code-example-container {
+    margin: 0;   
+    padding: 0 0 0 40px;
+    width: 100%;
+  }
+
+  .section-title-code {
+    padding-left: 80px;
+    margin: 10px 0 10px 0;
+  }
+  
+  .code-container {
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .education-container {
+    margin: 0;   
+    width: 100%;
+  }
+
+  .projects-container {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .languages-container {
+    margin: 0;   
+    width: 100%;
+    border-radius: 0 0 0 50px;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 90px;
+    background-color: #707098;
+  }
+  
+  .footer-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;     
+    list-style: none; 
+  }
+  
+  .footer-github {
+    line-height: 32px;
+    color: #b1b3c9;
+    text-decoration: none;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+  }
+
+  .footer-github:hover {
+    color: #c12f2f;
+    transition: color 0.3s;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-year {
+    line-height: 32px;
+  }
+  
+  .footer-logo {
+    height: 32px;
+  }
