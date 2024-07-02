@@ -1,9 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html class="page" lang="en">
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-</head>
-<body></body>
-</html>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container-right">
+        <section class="name-container section">
+          <h1 class="name-title">
+            Dzmitry
+            <br>
+            Matusevich
+          </h1>
+        </section>
+        <section class="about-me-container section section-border" id="about-me">
+          <h2 class="section-title">About Me:</h2>
+          <p class="about-me">
+            My goal is to learn everything new and exciting. I love spend a lot of time doing what interests me. My core strengths are in problem solving and fast learning. I want to get knowledge and skills that will be enough for employment.
+          </p>
+        </section>
+        <section class="skills-container section section-border" id="skills">
+          <h2 class="section-title">Skills:</h2>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+          </ul>
+        </section>
+        <section class="code-example-container section-border" id="code-example">
+          <h2 class="section-title section-title-code">Code Example:</h2>
+          <pre class="code-container">
+<code>
+  let numbers = [1, 4, 5, 9, 2, 5, 1];
+  let uniqueNumbers = [];
+  for (let i = 0; i = numbers.length - 1; i++) {
+    let notUnique = true;
+    for (var j = 0; j = numbers.length - 1; j ++) {
+      if (numbers[j] == numbers[i] && j != i) {
+        notUnique = false;
+      }
+    }
+    if (notUnique) {
+      uniqueNumbers.push(numbers[i]);
+    }
+  }
+</code>
+          </pre>
+        </section>
+      </div>
+      <div class="container-left">
+        <figure class="my-foto">
+          <img class="foto" src="assets/img/my-foto.png" alt="Photo of Dzmitry Matusevich">
+        </figure>
+        <section class="contact-container section-left section-left-border" id="contacts">
+          <h2 class="section-title">Contacts:</h2>
+          <ul class="contact-list">
+            <li>Phone: +375 29 593-16-80</li>
+            <li>E-mail: dim.v.m.84@gmail.com</li>
+            <li>Telegram: Dzmitry Matusevich</li>
+          </ul>
+        </section>
+        <section class="projects-container section-left section-left-border" id="projects">
+          <h2 class="section-title section-title-left">Projects</h2>
+          <ul class="skills-list">
+            <li class="skills-item">
+              <a class="projects" href="https://rolling-scopes-school.github.io/dimvmat-JSFEPRESCHOOL2022Q4/plants/#">Plants</a>
+            </li>
+            <li class="skills-item">
+              <a class="projects" href="https://rolling-scopes-school.github.io/dimvmat-JSFE2023Q4/coffee-house/home/index.html">Coffee-house</a>
+            </li>
+          </ul>
+        </section>
+        <section class="education-container section-left section-left-border" id="education">
+          <h2 class="section-title section-title-left">Education:</h2>
+          <p>
+              Belarusian State University of Transport
+          </p>
+        </section>
+        <section class="languages-container  section-left" id="english">
+          <h2 class="section-title section-title-left">English:</h2>
+          <p>B1 - Pre-Intermediate</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-github" href="https://github.com/Dimvmat" target="_blank">My GitHub</a>
+          </li>
+          <li class="footer-item">
+            <p class="footer-year">2024</p>
+          </li>
+          <li class="footer-item">
+            <a class="footer-logo" href="https://rs.school/courses/javascript-ru" target="_blank">
+              <img src="assets/img/rs_school_svg.svg" width="86" height="32" alt="RS School">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  </html>
